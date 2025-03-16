@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* 确保按钮容器能正确定位 */
+.signup-button-container {
+  position: absolute;
+  top: 60px;
+  right: 100px; /* 如果想让按钮离右边有一些间距，可以设置为10px */
+}
+
+button {
+  background-color: #3b82f6; /* Tailwind bg-blue-500 替代 */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}
